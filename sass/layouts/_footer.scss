@@ -1,0 +1,137 @@
+
+.footer_fluid {
+
+	.footer_icons {
+		margin-top: 20px;
+
+		a {
+			&:not(:last-child){
+				padding-right: 2px;
+			}
+		}
+	}
+	
+		background-color: #272D34;
+		padding: 30px 0;
+
+		.footer_contact_tittle {
+
+			 text-align: center;
+
+
+			  h2 {
+			  	color: #E87118;
+			  	font-size: 35px;
+			  	font-family: 'Conv_bebas-neue-regular';
+
+			  }
+		}
+
+
+		.container {
+
+			.address_row {
+
+				 .col-lg-4{
+				 	padding-right: 5px;
+				 }
+			}
+
+
+			.address_box {
+
+				margin-top: 30px;
+				padding-left: 25px;
+				img {
+					
+					padding-right: 10px;
+				}
+
+				span {
+					color: #fff;
+					font-size: 14px;
+					font-family: 'Conv_bpg_nino_mtavruli_normal';
+				}
+			}
+				
+
+
+				.footer_form {
+
+					 form {
+
+					 	.input_submit {
+
+					 		display: flex;
+					 		justify-content: center;
+
+					 		 button {
+					 		 	 background-color: #E87118;
+					 		 	 outline: none;
+					 		 	 color: #fff;
+					 		 	 font-family: 'Conv_bebas-neue-regular';
+					 		 	 font-size: 15px;
+					 		 	 padding: 5px 20px;
+					 		 	 cursor: pointer;
+					 		 }
+					 	}
+					
+							.input_wrapper {
+								display: flex;
+								 margin: 15px 0;
+								 overflow-y: hidden;
+
+
+								&>div {
+									width: 50%;
+								}
+
+								.input_lf_box {
+									margin-right: 10px;
+								}
+
+								.input_rg_box {
+									margin-left: 10px;
+								}
+
+
+
+								 input {
+								 	background-color: #404A55;
+								 	color: #fff;
+								 	font-family: 'Conv_bpg_nino_mtavruli_normal';
+								 	font-size: 12px;
+								 	width: 100%;
+								 	padding: 6px 65px;
+   									margin-bottom: 5px;
+
+								 	&::placeholder{
+								 		color:#fff;
+								 		font-family: 'Conv_bpg_nino_mtavruli_normal';
+								 	}
+								 }
+
+
+								 textarea {
+								 	background-color: #404A55;
+								 	color: #fff;
+								 	font-family: 'Conv_bpg_nino_mtavruli_normal';
+								 	font-size: 12px;
+								 	width: 100%;
+								 	resize: none;
+								 	height: 65px;
+								    padding: 6px 16px;
+
+
+
+								 	&::placeholder{
+								 		color:#fff;
+								 	}
+								 }
+							}	
+
+					 }
+				}
+
+		}
+}
