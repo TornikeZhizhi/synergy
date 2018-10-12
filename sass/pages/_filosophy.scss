@@ -1,0 +1,93 @@
+
+.pilosophy_main_fluid {
+	width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 0px;
+    position: relative;
+}
+
+
+
+.filosophy_header_fluid {
+
+	background-color: #124477;
+	padding: 0;
+}
+
+
+.filosophy_fluid {
+	 padding: 30px 0;
+}
+
+
+.filosophy_tittle {
+	width: 100%;
+	text-align: center;
+	  h2 {
+			
+			color: #124477;
+			font-size: 35px;
+			font-family: 'Conv_bebas-neue-regular';
+			border-bottom: 5px solid #124477;
+			padding: 0 10px 5px;
+			display: inline-block;
+
+	  }
+}
+
+
+.filosophy_container {
+
+		padding: 50px 0;
+
+		.filosophy_wrapper {
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+}
+
+
+.filosophy_text {
+
+	padding: 0px 90px 0px 0px;
+
+	  p  {
+
+	  	color: #00233A;
+	  	font-size: 14px;
+	  	font-family: 'Conv_bpg_web';
+
+	  }
+}
+
+
+.pilosophy_logo {
+
+	width: 50%;
+	text-align: center;
+	    margin-bottom: 40px;
+	
+
+	  img {
+
+	  }
+
+
+	  h3 {
+			color: #124477;
+			font-size: 16px;
+			font-family: 'Conv_bpg_web';
+			margin: 10px 0;
+	  }
+
+
+	  p {
+	  	color: #124477;
+	  	font-size: 12px;
+		font-family: 'Conv_bpg_web';
+	  }
+}

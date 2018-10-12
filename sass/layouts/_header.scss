@@ -208,10 +208,42 @@
 						padding-left: 15px;
 						display: flex;
     					align-items: center;
+    					position: relative;
+						
+
+						.search_bar {
+
+							position: absolute;
+							top: 3px;
+						    right: 31px;
+						    width: 0px;
+						    overflow: hidden;
+						    transition: .4s;
+
+						     &.active {
+						     	width:200px;
+						     }
+
+
+							   input {
+
+							   		background-color: #fff;
+							   		width:100%;
+							   		outline: none;
+							   		padding: 5px 5px;
+							   		font-family: 'Conv_bpg_nino_mtavruli_normal';
+
+							   }
+						}
+
 
     					 span {
     					 	line-height: 1px;
     					 	cursor: pointer;
+
+    					 	 img {
+    					 	 	width: 21px;
+    					 	 }
     					 }
 
 			 	 	 }

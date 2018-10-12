@@ -1,0 +1,212 @@
+
+.investors_slider_container {
+	
+	 .slider_content {
+
+			border-radius: 50%;
+			width: 107px;
+    		height: 107px;
+			border: 2px solid #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #124477;
+
+
+	 	 a {
+
+	 	 	
+	 	 	width: 95px;
+	 	 	height: 95px;
+	 	 	border-radius: 50%;
+	 	 	overflow: hidden;
+	 	 	display: flex;
+	 	 	align-items: center;
+	 	 	justify-content: center;
+	 	 	background-color: #fff;
+
+	 	 	 img {
+
+	 	 	 	 width: 65px;
+	 	 	 }
+	 	 }
+	 }
+}
+
+
+
+
+.investor_main_container {
+	margin-top: 50px;
+
+	 .investor_tittle_box {
+
+	 	 position: relative;
+				
+				.investor_dropdown_content {
+
+					 position: absolute;
+					 top: 0;
+					 right: 0;
+					 cursor: pointer;
+
+					  img {
+					  	position: absolute;
+						 top: 11px;
+    					right: 4px;
+
+					  }
+
+					   select {
+					   	background-color: #052F51;
+					   	border: none;
+					   	border-bottom: 1px solid #fff;
+					   	width: 240px;
+					   	color: #fff;
+					   	font-family: 'Conv_bpg_nino_mtavruli_normal';
+					   	font-size: 16px;
+					   	cursor: pointer;
+					   	line-height: 1.6;
+
+					   	option {
+					   		cursor: pointer;
+					   	}
+
+					   }
+				}
+
+
+	 	 		.investor_tittle{
+	 	 			text-align: center;
+
+	 	 			 h2 {
+	 	 			 	font-family: 'Conv_bebas-neue-regular';
+	 	 			 	font-size: 35px;
+	 	 			 	display: inline-block;
+	 	 			 	border-bottom: 5px solid #fff;
+	 	 			 	padding: 0px 12px 0px;
+	 	 			 	color: #fff;
+	 	 			 }
+	 	 		}
+	 }
+}
+
+
+.investors_main_contents {
+
+	 width: 100%;
+	 margin-top: 50px;
+	 position: relative;
+
+
+	  .investors_company_logo_box {
+
+	  	border-radius: 50%;
+	    width: 210px;
+	    height: 210px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    background-color: #124477;
+	    position: absolute;
+	    top: -65px;
+    	left: -105px;
+    	 z-index: 100;
+
+
+	  	   a {
+	  	   	width: 185px;
+		    height: 185px;
+		    border-radius: 50%;
+		    overflow: hidden;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    background-color: #fff;
+
+	  	   	  img {
+    				width: 140px;
+	  	   	  }
+	  	   }
+	  }
+
+
+	 .investors_main_text {
+	 	background-color: #fff;
+	 	padding: 50px 100px 110px 130px;
+    	border-radius: 0px 0px 10px 10px;
+    	display: none;
+    	animation: invAnime .3s;
+
+    	&.active {
+    		display: block;
+    	}
+
+
+			
+			
+		
+
+
+	 	 p {
+	 	 	color: #00233A;
+	 	 	font-size: 14px;
+	 	 	font-family: 'Conv_bpg_web';
+	 	 }
+	 }
+
+	   .investors_content_tab_panel {
+
+	   		display: flex;
+	   		justify-content: flex-end;
+			width: 100%;
+			background-color: #124477;
+			border-radius: 5px 5px 0px 0px;
+    		box-shadow: 0px 0px 5px 0px #0000007d;
+
+			.investors_tab_box {
+
+				display: flex;
+				padding: 5px;
+					
+					&>div {
+						margin-right: 20px;
+						h3 {
+							color: #fff;
+							font-family: 'Conv_bebas-neue-regular';
+							opacity: .3;
+							font-size: 19px;
+							cursor: pointer;
+							border-bottom: 2px solid transparent;
+							transition: .4s;
+						}
+					}
+
+
+					.inv_tab_wrap.active{
+
+						 
+
+						 	 h3 {
+						 	 	opacity: 1;
+						 	 	border-bottom: 1px solid #fff;
+						 	 
+						 }
+					}
+
+			}
+
+
+	   }
+}
+
+@keyframes invAnime {
+
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
