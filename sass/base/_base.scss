@@ -31,3 +31,13 @@ a:hover {
     text-decoration: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #E87118; 
+    border-radius: 5px;
+}

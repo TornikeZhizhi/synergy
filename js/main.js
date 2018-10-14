@@ -33,20 +33,17 @@ $(document).ready(function(){
 // Investor Tab Panel
 
 $(document).ready(function(){
-
-	
-
-	$(".investors_main_contents .inv_tab_wrap").each(function(index){
+	$(".inv_tab_wrap").each(function(index){
 		$(this).on("click",function(){
-		
-			$(".inv_tab_wrap").removeClass("active");
+			var test =Math.ceil((index + 1)/3)
+			if(index > 2){
+			  index =  Math.abs((((test -1)*3) - (index )))
+			}
+			$(this).parent().find(".inv_tab_wrap").removeClass("active")
 			$(this).addClass("active");
-
-			$(".investors_main_text").removeClass("active");
-			$(".investors_main_text").eq(index).addClass("active");
-
-
+            var parenClaa = '.' + $(this).parent().parent().parent().prop('className')
+			$(this).parent().parent().parent().find(".investors_main_text").removeClass("active");
+			$(this).parent().parent().parent().find(".investors_main_text").eq(index).addClass("active");
 		})
-
 	})
 })
