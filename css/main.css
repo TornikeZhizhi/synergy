@@ -85,7 +85,7 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.85); }
 
 .top_container {
-  max-width: 1376px; }
+  max-width: 1500px; }
   .top_container .top_mobile_box img {
     padding-right: 10px; }
   .top_container .top_social_box {
@@ -96,7 +96,7 @@ a:hover {
       padding-right: 5px; }
 
 .header_container {
-  max-width: 1376px;
+  max-width: 1500px;
   padding: 60px 0; }
   .header_container .header_content_box {
     height: 100%;
@@ -669,7 +669,7 @@ a:hover {
       width: 65px; }
 
 .investor_main_container {
-  padding: 50px 15px; }
+  padding: 50px 15px 200px; }
   .investor_main_container .investor_tittle_box {
     position: relative; }
     .investor_main_container .investor_tittle_box .investor_dropdown_content {
@@ -704,9 +704,29 @@ a:hover {
         color: #fff; }
 
 .investors_main_contents {
+  position: relative;
   width: 100%;
   margin-top: 100px;
   position: relative; }
+  .investors_main_contents .inv_donwload_boxes {
+    position: absolute;
+    left: 100%;
+    width: 42px;
+    height: 56px; }
+    .investors_main_contents .inv_donwload_boxes button {
+      background-image: url("../images/inv_pdf_icon.png"), linear-gradient(#E87118, #E87118);
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none; }
+    .investors_main_contents .inv_donwload_boxes.download1 {
+      top: 30%; }
+    .investors_main_contents .inv_donwload_boxes.download2 {
+      top: 51%; }
   .investors_main_contents .investors_company_logo_box {
     border-radius: 50%;
     width: 210px;
@@ -736,6 +756,42 @@ a:hover {
     border-radius: 0px 0px 10px 10px;
     display: none;
     animation: invAnime .3s; }
+    .investors_main_contents .investors_main_text .investors_hor_info_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box > div:not(:last-child) {
+        margin-right: 50px; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box .inv_chart_box {
+        flex-grow: 1; }
+        .investors_main_contents .investors_main_text .investors_hor_info_box .inv_chart_box #container {
+          width: 100% !important; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box h3 {
+        color: #E87118;
+        font-size: 14px;
+        font-family: 'Conv_BPG_Nino_Mtavruli_Bold'; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box span {
+        color: #00233A;
+        font-size: 14px;
+        font-family: 'Conv_BPG_Nino_Mtavruli_Bold'; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box h4 {
+        font-size: 12px;
+        font-family: 'Conv_BPG_Nino_Mtavruli_Bold'; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box .inv_obl {
+        text-align: center; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box .inv_fond {
+        text-align: center; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box .inv_employer_box > div {
+        padding: 4px 9px 1px; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box .inv_employer_box .employer_before {
+        border: 1px solid #E87118;
+        margin-bottom: 5px; }
+        .investors_main_contents .investors_main_text .investors_hor_info_box .inv_employer_box .employer_before h4 {
+          color: #E87118; }
+      .investors_main_contents .investors_main_text .investors_hor_info_box .inv_employer_box .employer_after {
+        border: 1px solid #00233A; }
+        .investors_main_contents .investors_main_text .investors_hor_info_box .inv_employer_box .employer_after h4 {
+          color: #00233A; }
     .investors_main_contents .investors_main_text.active {
       display: block; }
     .investors_main_contents .investors_main_text p {
@@ -771,5 +827,131 @@ a:hover {
     opacity: 0; }
   100% {
     opacity: 1; } }
+canvas {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; }
+
+.news_main_fluid {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 0px 0px;
+  position: relative; }
+
+.news_tittle {
+  text-align: center; }
+  .news_tittle h2 {
+    color: #052F51;
+    border-bottom: 5px solid #052F51;
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: 'Conv_bebas-neue-regular';
+    font-size: 35px; }
+
+.news_fluid {
+  padding: 30px 0;
+  background-color: #F4F4F4; }
+
+.news_container {
+  max-width: 1505px; }
+
+.staties_main_col .stat_main_tittle {
+  background-color: #BCBEC0;
+  text-align: center;
+  padding: 3px 0; }
+  .staties_main_col .stat_main_tittle h2 {
+    color: #fff;
+    font-family: 'Conv_bebas-neue-regular';
+    font-size: 30px; }
+
+.staties_main_col .col-lg-12:not(:last-child) {
+  margin-bottom: 20px; }
+
+.stat_main_box .stats_img a img {
+  width: 100%;
+  max-height: 270px;
+  object-fit: cover; }
+
+.stat_info_box {
+  background-color: #fff;
+  padding: 10px 10px; }
+  .stat_info_box h3 {
+    color: #124477;
+    font-size: 28px;
+    font-family: 'Conv_bebas-neue-regular';
+    text-align: center; }
+  .stat_info_box p {
+    color: #00233A;
+    font-family: 'Conv_bpg_nino_mtavruli_normal';
+    font-size: 15px; }
+  .stat_info_box a {
+    color: #124477;
+    font-size: 20px;
+    font-family: 'Conv_bebas-neue-regular';
+    font-size: 20px;
+    float: right;
+    position: relative;
+    margin-right: 47px; }
+    .stat_info_box a:after {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 1px;
+      background-color: #124477;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -45px;
+      z-index: 100; }
+
+.month_staties_main_col .month_news_tittle {
+  background-color: #BCBEC0;
+  text-align: center;
+  padding: 3px 0; }
+  .month_staties_main_col .month_news_tittle h2 {
+    color: #fff;
+    font-family: 'Conv_bebas-neue-regular';
+    font-size: 30px; }
+.month_staties_main_col .month_stat_box {
+  display: flex; }
+  .month_staties_main_col .month_stat_box .month_stat_img_box {
+    flex: 0 0 50%; }
+    .month_staties_main_col .month_stat_box .month_stat_img_box a {
+      display: block; }
+      .month_staties_main_col .month_stat_box .month_stat_img_box a img {
+        width: 100%;
+        object-fit: cover;
+        height: 225px; }
+.month_staties_main_col .month_stat_info_box {
+  flex-grow: 1;
+  padding: 40px 15px; }
+  .month_staties_main_col .month_stat_info_box .month_title_text h3 {
+    color: #124477;
+    font-family: 'Conv_bebas-neue-regular';
+    font-size: 24px;
+    margin-bottom: 5px; }
+  .month_staties_main_col .month_stat_info_box .month_title_text p {
+    color: #414042;
+    font-size: 12px;
+    font-family: 'Conv_bpg_web'; }
+  .month_staties_main_col .month_stat_info_box a {
+    color: #124477;
+    font-size: 20px;
+    font-family: 'Conv_bebas-neue-regular';
+    position: relative;
+    margin-right: 47px;
+    float: right; }
+    .month_staties_main_col .month_stat_info_box a:after {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 1px;
+      background-color: #124477;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -45px;
+      z-index: 100; }
 
 /*# sourceMappingURL=main.css.map */

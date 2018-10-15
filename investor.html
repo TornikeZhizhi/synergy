@@ -13,6 +13,9 @@
    	<link href="css/calendar.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
+	<script src="js/Chart.bundle.js"></script>
+	<script src="js/utils.js"></script>
+
 </head>
 <body>
 <!-- // -->
@@ -232,6 +235,15 @@
 
 		<div class="investors_main_contents">
 
+
+			<div class="inv_donwload_boxes download1">
+				<button></button>
+			</div>
+
+			<div class="inv_donwload_boxes download2">
+				<button></button>
+			</div>
+
 			<div class="investors_company_logo_box">
 				<a href="">
 					<img src="images/sld_img.png">
@@ -270,15 +282,114 @@
 			</div>
 
 			<div class="investors_main_text">
-				<p>3მაrრკეტერის ისტორია 2011 წლის 1 სექტემბერს იწყება. წლების განმავლობაში მარკეტერი აშუქებს საინტერესო
+				<p>მარკეტერის ისტორია 2011 წლის 1 სექტემბერს იწყება. წლების განმავლობაში მარკეტერი აშუქებს საინტერესო
 				ამბებს და ისტორიებს ბიზნეს სამყაროდან, ჩვენ ვცდილობთ გაგაცნოთ ადამიანები, რომლებიც ქართულ და
-				მსოფლიოს წამყვანი ქვეყნების შემოქმედებით ინდუსტრიებში მოღვაწეობენ. 2013 წლიდან არსებობს Marketer.ge-ს
-				საავტორო პროექტი Spotlight.ge.</p>
+				მსოფლიოს წამყვანი ქვეყნების შემოქმედებით ინდუსტრიებში მოღვაწეობენ. 2013 წლიდან არსებობს Marketer.ge-ს</p>
+
+				<div class="investors_hor_info_box">
+					<div class="inv_obl">
+						<h3>ობლიგაციები</h3>
+						<span>12%</span>
+					</div>
+
+
+					<div class="inv_fond">
+						<h3>წილი ქვეფონდები</h3>
+						<span>12%</span>
+					</div>
+
+
+
+					<div class="inv_employer_box">
+						<div class="employer_before">
+							<h4>ჩვენ თანამშრომლობამდე</h4>
+						</div>
+						<div class="employer_after"><h4> ჩვენი თანამშრომლობის შედეგი</h4></div>
+					</div>
+	
+					
+					<div class="inv_chart_box">
+
+					<div id="container">
+							<canvas id="canvas"></canvas>
+							</div>
+							
+							<script>
+								var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+								var color = Chart.helpers.color;
+								var barChartData = {
+									labels: ['2013', '2014', '2015', '2016', '2017'],
+									datasets: [{
+										label: 'Dataset 1',
+										backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+										borderColor: window.chartColors.red,
+										borderWidth: 1,
+										data: [
+											20,
+											30,
+											50,
+											45,
+											25
+										
+										]
+									}, {
+										label: 'Dataset 2',
+										backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+										borderColor: window.chartColors.blue,
+										borderWidth: 1,
+										data: [
+											23,
+											55,
+											65,
+											55,
+											25
+										
+										]
+									}]
+								};
+								window.onload = function() {
+									var ctx = document.getElementById('canvas').getContext('2d');
+									window.myBar = new Chart(ctx, {
+										type: 'bar',
+										data: barChartData,
+										options: {
+											responsive: true,
+											legend: {
+												position: 'top',
+											},
+											title: {
+												display: true,
+												text: 'Chart.js Bar Chart'
+											}
+										}
+									});
+
+								};
+
+
+
+							</script>
+
+
+					</div>
+
+				
+					</div>
+
 			</div>
 
 		</div>
 
 			<div class="investors_main_contents">
+
+
+			<div class="inv_donwload_boxes download1">
+				<button></button>
+			</div>
+
+			<div class="inv_donwload_boxes download2">
+				<button></button>
+			</div>
 
 			<div class="investors_company_logo_box">
 				<a href="">
@@ -327,6 +438,16 @@
 		</div>
 		<div class="investors_main_contents">
 
+
+
+			<div class="inv_donwload_boxes download1">
+				<button></button>
+			</div>
+
+			<div class="inv_donwload_boxes download2">
+				<button></button>
+			</div>
+
 			<div class="investors_company_logo_box">
 				<a href="">
 					<img src="images/sld_img.png">
@@ -372,15 +493,77 @@
 			</div>
 
 		</div>
-
-
-
-
-
 </div>
 
 <!-- /header end -->
 
+
+<div class="about_us_fluid container-fluid">
+	
+	<div class="about_tittle">
+		<h2>რას ამბობენ ჩვენზე</h2>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-4">
+				<div class="about_content">
+
+					<div class="about_img">
+						<a href=""><img src="images/about_profile.jpg"></a>
+					</div>
+
+					<div class="about_text">
+						<p>“მარკეტერის ისტორია 2011 წლის 1 სექტემბერს
+						იწყება. წლების განმავლობაში მარკეტერი აშუქებს
+						საინტერესო ამბებს და ისტორიებს ბიზნეს
+						სამყაროდან, ჩვენ ვცდილობთ გაგაცნოთ”</p>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="col-lg-4">
+				<div class="about_content">
+
+					<div class="about_img">
+						<a href=""><img src="images/about_profile.jpg"></a>
+					</div>
+
+					<div class="about_text">
+						<p>“მარკეტერის ისტორია 2011 წლის 1 სექტემბერს
+						იწყება. წლების განმავლობაში მარკეტერი აშუქებს
+						საინტერესო ამბებს და ისტორიებს ბიზნეს
+						სამყაროდან, ჩვენ ვცდილობთ გაგაცნოთ”</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="about_content">
+
+					<div class="about_img">
+						<a href=""><img src="images/about_profile.jpg"></a>
+					</div>
+
+					<div class="about_text">
+						<p>“მარკეტერის ისტორია 2011 წლის 1 სექტემბერს
+						იწყება. წლების განმავლობაში მარკეტერი აშუქებს
+						საინტერესო ამბებს და ისტორიებს ბიზნეს
+						სამყაროდან, ჩვენ ვცდილობთ გაგაცნოთ”</p>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
 
 	
 
