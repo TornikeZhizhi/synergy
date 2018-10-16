@@ -269,12 +269,13 @@
 
 
 .note_box {
-	position: absolute;
+	position: fixed;
 	top: 35%;
 	right: 0;
 	width: 180px;
     background-color: #E87118;
     padding: 2px 15px;
+    z-index: 100;
 
 	  span {
 	  	color: #fff;

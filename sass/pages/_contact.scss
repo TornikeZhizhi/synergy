@@ -1,0 +1,132 @@
+.contact_main_fluid {
+	width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 0px;
+    position: relative;
+}
+
+.contact_fluid {
+
+	background-color: #124477;
+
+	.contact_map_fluid {
+
+		 width: 100%;
+		 height: 600px;
+
+
+		  iframe {
+		  	 width: 100%;
+		  	 height: 100%;
+		  }
+
+	}
+
+
+
+	.contact_form_box {
+		    max-width: 50%;
+    		margin: 0 auto;
+    		padding: 85px 0;
+			
+			.contact_form_tittle {
+	text-align: center;
+				h2 {
+
+					font-size: 35px;
+					color: #fff;
+					font-family: 'Conv_bebas-neue-regular';
+					display: inline-block;
+					border-bottom: 6px solid #fff;
+					padding: 3px 10px;
+
+				}
+			}
+
+
+	}
+
+
+
+	.contact_form {
+		
+    padding: 50px 0;
+
+		 form {
+		 	text-align: center;
+
+
+		 	  input {
+		 	  	display: block;
+		 	  	width: 100%;
+		 	  	padding: 3px 10px;
+		 	  	color: #fff;
+		 	  	font-size: 14px;
+		 	  	font-family: 'Conv_bpg_web';
+		 	  	background-color: #052F51;
+		 	  	border-radius: 7px;
+		 	  	padding: 7px 10px;
+   				margin-bottom: 10px;
+
+		 	  	&::placeholder{
+		 	  		color:#fff;
+		 	  		font-family: 'Conv_bpg_web';
+		 	  	}
+		 	  }
+
+
+		 	  textarea {
+		 	  		display: block;
+		 	  		color: #fff;
+			 	  	font-size: 14px;
+			 	  	font-family: 'Conv_bpg_web';
+			 	  	width: 100%;
+			 	  	resize: none;
+			 	  	padding: 3px 10px;
+			 	  	background-color: #052F51;
+			 	  	border-radius: 7px;
+			 	  	height: 80px;
+			 	  		&::placeholder{
+		 	  		color:#fff;
+		 	  		font-family: 'Conv_bpg_web';
+		 	  	}
+		 	  }
+
+		 	  button {
+		 	  	 color: #052F51;
+		 	  	 font-size: 15px;
+		 	  	 background-color: #fff;
+		 	  	 border-radius: 5px;
+		 	  	 font-family: 'Conv_bpg_web';
+		 	  	 padding: 6px 55px 5px;
+		 	  	 outline: none;
+		 	  	 margin-top: 20px;
+		 	  }
+		 }
+	}
+}
+
+
+.addres_box {
+	display: flex;
+    flex-wrap: wrap;
+    width: 89%;
+    margin: 40px auto 0px;
+    justify-content: space-between;
+
+
+	   span {
+		   	flex: 0 0 45%;
+   		 margin-bottom: 15px;
+	   	 color: #fff;
+	   	 font-size: 15px;
+	   	font-family: 'Conv_bebas-neue-regular';
+
+	   	 img {
+	   	 	padding-right: 10px;
+	   	 }
+	   }
+}
