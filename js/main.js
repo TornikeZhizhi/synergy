@@ -47,3 +47,43 @@ $(document).ready(function(){
 		})
 	})
 })
+
+
+//organizations
+
+$(document).ready(function(){
+	$(".conceftion_up .conceftion").on("click",function(){
+		$(".conecftion_download_box").css("display","flex");
+
+		$(".conceftion").removeClass("active");
+		$(this).addClass("active")
+
+		
+	})
+
+
+	$(".autorized_comment_box").on("click",function(){
+
+		$(this).css("display","none");
+		$(this).parent().find(".autorized_comment").fadeIn()
+
+
+	})
+
+//download icon 
+
+	$(".download_icon_box").on("click",function(){
+
+		$(this).parent().find("input").click()
+
+	})
+
+	// org link
+
+	$(".org_news_box").on("click",function(){
+		window.location.href = "news.html"
+	})
+
+
+})
+
