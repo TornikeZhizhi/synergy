@@ -54,6 +54,14 @@
 	padding: 60px 0;
 
 
+	.main_logo_box {
+
+	  	a {
+	  	display:block;
+	  	}
+	}
+
+
 	.header_content_box {
 		height: 100%;
 	    display: flex;
@@ -83,15 +91,37 @@
 
 						 li {
 
-						 margin-left:25px;
+						 margin-left:30px;
+						
 
 
 
 						 	 a {
 						 	 	color: #fff;
 						 	 	font-size: 25px;
-						 	 	font-family: 'Conv_bebas-neue-regular'
+						 	 	font-family: 'Conv_G_BRUSHS';
+						 	 	position: relative;
 
+
+						 	 }
+
+						 	 &:last-child {
+						 	 	margin-right: 20px;
+						 	 }
+
+
+						 	 &:not(:last-child) a{
+
+						 	 	&:after{
+						 	 		position: absolute;
+								    content: "";
+								    width: 1px;
+								    height: 100%;
+								    background-color: #fff;
+								    top: 0px;
+								    right: -15px;
+								    z-index: 10;
+						 	 	}
 						 	 }
 						 }
 					}

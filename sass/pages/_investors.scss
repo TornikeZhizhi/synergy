@@ -117,12 +117,12 @@
 		 }
 
 		 &.download1 {
-			top: 30%;
+			top: 85px;
 		 }
 
 		 &.download2 {
 			
-			top: 51%;
+			    top: 145px;
 		 }
 	}
 
@@ -317,6 +317,14 @@
 	   }
 }
 
+.investor_header_fluid {
+	
+    background-color: #124477;
+     background-image: url(../images/home_inv_bg.png); 
+    padding: 0;
+
+}
+
 @keyframes invAnime {
 
 	0% {
@@ -333,3 +341,80 @@ canvas {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 	}
+
+
+
+
+
+
+
+
+/*// responsive*/
+
+@media only screen and (max-width: 1368px){
+	.investors_main_contents .investors_company_logo_box a {
+	    width: 160px;
+	    height: 160px;
+	  
+	}
+	.investors_main_contents .investors_company_logo_box {
+   
+    width: 195px;
+    height: 195px;
+   
+}
+
+.investor_main_container  {
+	max-width: 950px;
+}
+
+}
+
+
+@media only screen and (max-width: 1280px){
+
+	.investor_main_container .investor_tittle_box .investor_tittle h2 {
+    	font-size: 25px;
+    	padding: 0px 6px 0px;
+  
+	}
+
+	.investor_main_container .investor_tittle_box .investor_dropdown_content select {
+   
+    width: 185px;
+    font-size: 13px;
+    line-height: 2;
+
+}
+.investors_main_contents .investors_content_tab_panel .investors_tab_box > div h3 {
+   
+    font-size: 15px;
+   
+}
+
+.investors_main_contents .investors_main_text p {
+    
+    font-size: 12px;
+    
+}
+.investors_main_contents .investors_main_text {
+    
+    padding: 50px 70px 80px 109px;
+}
+
+.investor_main_container {
+    max-width: 790px;
+}
+.investors_main_contents .investors_company_logo_box a {
+    width: 130px;
+    height: 130px;
+}
+.investors_main_contents .investors_company_logo_box a img {
+    width: 90px;
+}
+.investors_main_contents .investors_company_logo_box {
+    width: 165px;
+    height: 165px;
+}
+
+}

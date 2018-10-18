@@ -130,3 +130,55 @@
 	   	 }
 	   }
 }
+
+.map_col {
+	padding: 0;
+}
+
+
+/*// responsive*/
+
+@media only screen and (max-width: 1745px){
+	.addres_box span {
+    flex: 0 0 50%;
+  
+    font-size: 13px;
+ 
+}
+
+
+
+}
+
+@media only screen and (max-width: 1440px){
+.addres_box {
+   
+    width: 100%;
+  
+}
+
+}
+
+@media only screen and (max-width: 1280px){
+
+	
+	.contact_fluid .contact_form_box .contact_form_tittle h2 {
+    font-size: 25px;
+    padding: 3px 7px;
+}
+.contact_fluid .contact_form form input {
+    font-size: 12px;
+}
+
+.contact_fluid .contact_form form textarea {
+    font-size: 12px;
+}
+
+.addres_box {
+	display: none;
+}
+
+}
+
+
+

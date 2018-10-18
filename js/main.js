@@ -87,3 +87,31 @@ $(document).ready(function(){
 
 })
 
+
+
+// option select
+
+$(document).ready(function(){
+
+	$(".investor_dropdown_content img").click(function(){
+		$(".investor_dropdown_content select").click()
+
+	})
+})
+
+
+
+// Hamburger
+
+
+$(document).ready(function(){
+	$(".hamburger_icon_box").on("click",function(){
+
+		$(".resp_menu_wrapper").css("width","100%");
+
+	})
+
+	$(".resp_close_icon").on("click",function(){
+		$(".resp_menu_wrapper").css("width","0%");
+	})
+})
