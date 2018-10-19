@@ -115,3 +115,5 @@ $(document).ready(function(){
 		$(".resp_menu_wrapper").css("width","0%");
 	})
 })
+
+// Scroll function

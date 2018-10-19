@@ -59,6 +59,10 @@
 	  	a {
 	  	display:block;
 	  	}
+
+	  	a:first-child {
+	  		padding-bottom: 10px;
+	  	}
 	}
 
 
@@ -315,6 +319,50 @@
 	  	font-family: 'Conv_bebas-neue-regular';
 	  	cursor:pointer;
 	  }
+}
+
+
+.main_logo_box {
+	align-items: center;
+    display: flex;
+
+    .main_logo {
+    	flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+/*// resp*/
+
+
+@media only screen and (max-width: 1500px){
+
+	.header_container .main_logo_box a:first-child {
+
+    margin-left: 20px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+.header_container {
+    max-width: 1500px;
+    padding: 15px 0 60px;
+}
+
+.main_logo_box{
+	justify-content: center;
+}
+.home_main_fluid {
+ 
+    height: 120vh;
+ 
+}
+
 }
 
 

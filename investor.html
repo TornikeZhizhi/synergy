@@ -20,6 +20,44 @@
 <body>
 <!-- // -->
 
+
+
+<!-- resp  menu -->
+
+<div class="resp_menu_wrapper">
+
+	<div class="resp_top_box">
+		<div class="resp_language_box">
+			<div class="language_box">
+				<span>geo</span>
+				<span>eng</span>
+			</div>
+		</div>
+
+		<div class="resp_close_icon">
+			<img src="images/close_icon.png">
+		</div>
+	</div>
+
+
+	<div class="resp_navigation">
+		<ul>
+			<li><a href="filosophy.html">ფილოსოფია</a></li>
+			<li><a href="investor.html">ინვესტორებისთვის</a></li>
+			<li><a href="organizations.html">ორგანიზაციებისთვის</a></li>
+			<li><a href="news.html">ამბები</a></li>
+			<li><a href="contact.html">კონტაქტი</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="">kerZo kapitalis fondi</a> </li>
+			<li><a href="contact.html">kontaqti</a> </li>
+		</ul>
+	</div>
+	
+</div>
+<!-- resp menu -->
+
 <div class="container-fluid pilosophy_main_fluid">
 
 
@@ -139,6 +177,15 @@
 						<div class="header_content_box">
 						
 							<div class="header_up_wrapper">
+									<!-- // hambuerger -->
+
+								<div class="hamburger_icon_box">
+									<div class="ham"></div>
+									<div class="ham"></div>
+									<div class="ham"></div>
+								</div>
+
+								<!-- /hamburger -->
 								<div class="header_navigation">
 									<ul>
 										<li><a href="filosophy.html">ფილოსოფია</a></li>
@@ -198,7 +245,7 @@
 
 
 	<div class="investors_slider_container container">
-		<div class="owl-carousel owl-theme">
+		<div class="owl-carousel owl-theme investor_slider">
 			<div class="slider_content ">
 				<a href="">
 					<img src="images/sld_img.png">
@@ -321,7 +368,7 @@
 								var barChartData = {
 									labels: ['2013', '2014', '2015', '2016', '2017'],
 									datasets: [{
-										label: 'Dataset 1',
+										label: '',
 										backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
 										borderColor: window.chartColors.red,
 										borderWidth: 1,
@@ -334,7 +381,7 @@
 										
 										]
 									}, {
-										label: 'Dataset 2',
+										label: '',
 										backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
 										borderColor: window.chartColors.blue,
 										borderWidth: 1,
@@ -359,7 +406,7 @@
 												position: 'top',
 											},
 											title: {
-												display: true,
+												display: false,
 												text: 'Chart.js Bar Chart'
 											}
 										}
@@ -584,7 +631,6 @@
 
 <!-- // foooter -->
 
-
 <div class="footer_fluid container-fluid">
 
 
@@ -622,19 +668,19 @@
 
 		<div class="row justify-content-center address_row">
 
-			<div class="col-lg-4 d-flex justify-content-end">
+			<div class="col-lg-4 col-12 d-flex justify-content-end">
 				<div class="address_box">
 					<img src="images/location_icon.png"><span>ქ. თბილისი, ტ. ტაბიძის ქუჩა . #86, 0179</span>
 				</div>
 			</div>
 
-			<div class="col-lg-3 d-flex justify-content-center">
+			<div class="col-lg-3 col-12 d-flex justify-content-center">
 				<div class="address_box">
 					<img src="images/white_phone_icon.png"><span>+995 555 88 63 36</span>
 				</div>
 			</div>
 
-			<div class="col-lg-3 d-flex justify-content-start">
+			<div class="col-lg-3 col-12 d-flex justify-content-start">
 				<div class="address_box">
 					<img src="images/white_email_icon.png"><span>INFO@GEOGPS.GE</span>
 				</div>
@@ -677,16 +723,19 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-			$('.owl-carousel').owlCarousel({
+			$('.investor_slider').owlCarousel({
 		    loop:true,
 		    margin:5,
 		    nav:true,
 		    responsive:{
 		        0:{
-		            items:1
+		            items:2
+		        },
+		        450:{
+		        	items:3
 		        },
 		        600:{
-		            items:3
+		            items:4
 		        },
 		        1000:{
 		            items:7

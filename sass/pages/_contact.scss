@@ -182,3 +182,43 @@
 
 
 
+
+@media only screen and (max-width: 992px){
+
+.contact_fluid .contact_form_box {
+ 
+    padding: 25px 0;
+}
+.contact_fluid {
+   
+    margin-top: -1px;
+}
+
+.map_col {
+	height: 400px;
+}
+.contact_fluid .contact_form form button {
+  	font-size: 12px;
+    padding: 6px 35px 5px;
+
+}
+.contact_fluid .contact_form form input {
+    font-size: 11px;
+}
+.contact_fluid .contact_form form textarea {
+    font-size: 11px;
+}
+
+.contact_main_fluid {
+	overflow: hidden;
+	height: unset;
+}
+
+.contact_fluid .contact_form_box {
+    max-width: 400px;
+    width: 90%;
+}
+
+
+}
+

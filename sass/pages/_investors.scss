@@ -351,6 +351,17 @@ canvas {
 
 /*// responsive*/
 
+
+@media only screen and (max-width: 1400px) and (min-width: 992px){
+
+	.investors_main_contents .investors_main_text .investors_hor_info_box {
+     display: unset; 
+    
+}
+
+}
+
+
 @media only screen and (max-width: 1368px){
 	.investors_main_contents .investors_company_logo_box a {
 	    width: 160px;
@@ -417,4 +428,126 @@ canvas {
     height: 165px;
 }
 
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+.investors_slider_container {
+
+}
+
+.owl-carousel.owl-drag .owl-item {
+   
+   
+    justify-content: center;
+    display: flex;
+}
+
+.investor_main_container .investor_tittle_box .investor_tittle h2 {
+    font-size: 21px;
+    padding: 0px 4px 0px;
+}
+
+.investors_main_contents .investors_company_logo_box {
+
+      top: -27px;
+    left: -18px;
+        width: 130px;
+    height: 130px;
+    
+}
+.investors_main_contents .investors_company_logo_box a {
+    width: 110px;
+    height: 110px;
+}
+.investors_main_contents .investors_company_logo_box a img {
+    width: 70px;
+    height: 30px;
+}
+.investors_main_contents .investors_main_text p {
+    font-size: 11px;
+}
+
+.investors_main_contents .inv_donwload_boxes.download1 {
+    top: unset;
+    left: unset;
+    bottom: -56px;
+    right: 115px;
+}
+.investors_main_contents .inv_donwload_boxes.download2 {
+     top: unset;
+    left: unset;
+    bottom: -56px;
+    right: 56px;
+}
+.investors_main_contents {
+    
+    width: 90%;
+    max-width: 800px;
+  
+    margin: 100px auto 0;
+   
+}
+
+.investors_main_contents .investors_content_tab_panel .investors_tab_box {
+    
+     flex-direction: column; 
+}
+
+.investors_main_contents .investors_main_text {
+    padding: 35px 25px 40px 25px;
+}
+.investor_main_container .investor_tittle_box .investor_dropdown_content {
+ 
+    top: 60px;
+  
+}
+
+.investors_hor_info_box {
+	flex-wrap: wrap;
+}
+.investors_hor_info_box>div {
+	flex: 0 0 50%;
+	margin-bottom: 20px;
+}
+.investors_main_contents .investors_main_text .investors_hor_info_box > div:not(:last-child) {
+     margin-right:unset;
+}
+.investors_main_contents .investors_main_text .investors_hor_info_box {
+
+    align-items: center;
+}
+
+}
+
+
+@media only screen and (max-width: 700px){
+
+	.investors_hor_info_box > div {
+    flex: 0 0 100%;
+    
+}
+
+.investors_main_contents .investors_main_text {
+    padding: 35px 10px 40px 10px;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+	.investors_main_contents .investors_content_tab_panel .investors_tab_box > div {
+     margin-right: unset; 
+}
+
+.investors_main_contents {
+    width: 100%;
+   
+}
+
+.investors_main_contents .investors_content_tab_panel .investors_tab_box > div h3 {
+    font-size: 13px;
+}
 }

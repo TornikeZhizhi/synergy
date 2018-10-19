@@ -93,7 +93,9 @@
 }
 
 
-
+.resp_logo {
+	display: none;
+}
 @media only screen and (max-width: 1280px){
 
 	.filosophy_tittle h2 {
@@ -123,7 +125,57 @@
 	.pilosophy_main_fluid {
    
      height: unset; 
+     overflow: hidden;
    
+}
+
+}
+
+@media only screen and (max-width: 992px){
+/*		.main_logo_box {
+			display: none;
+		}
+
+	.resp_logo{
+		display: block;
+	}*/
+
+	/*.filosophy_header_fluid {
+		background-color: transparent;
+	}
+*/
+
+.header_container .header_content_box .header_right_info_box .header_right_up {
+  
+    margin-left: 30px;
+}
+
+.filosophy_text {
+     padding:unset; 
+}
+.filosophy_text {
+    padding: unset;
+    max-width: 800px;
+    width: 90%;
+        margin: 0 auto 30px;
+}
+.filosophy_text p {
+    text-align: justify;
+}
+.filosophy_tittle h2 {
+    font-size: 22px;
+    padding: 0 5px 1px;
+}
+.filosophy_text p {
+    font-size: 11px;
+}
+
+.pilosophy_logo h3 {
+    font-size: 11px;
+}
+.pilosophy_logo p {
+    font-size: 9px;
+        padding: 0px 15px;
 }
 
 }

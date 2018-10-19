@@ -150,6 +150,7 @@
 	 background-color: #124477;
 	 background-image: url("../images/home_offer_bg.png");
 	 padding: 20px 0;
+	     overflow: hidden;
 
 
 
@@ -413,7 +414,7 @@
 	 	text-align: center;
 	 	width: 50%;
 	 	margin: 0 auto;
-	 	padding-bottom: 40px;
+	 	padding-bottom: 50px;
 
 	 	form {
 	 		position: relative;
@@ -804,6 +805,133 @@
     font-size: 23px;
 }
 
+.note_tittle h2 {
+    font-size: 18px;
+ 
+}
+.note_form .type_of_meet h3 {
+   
+    font-size: 11px;
+   
+}
+.note_form form .note_input_box input {
+    font-size: 12px;
+   
+}
+.note_form form .note_calendar_box label {
+ 
+    font-size: 12px;
+}
+.calendar_time_min input {
+  
+    font-size: 12px;
+  
+}
+.calendar-cell {
+   
+    font-size: 14px;
+}
+#calendar-month, #calendar-year {
+    font-size: 16px;
+
+}
+.calendar-arrow-right {
+   
+    top: 10px;
+    right: 0px;
+    width: 14px;
+}
+.calendar-arrow-left {
+ 
+    top: 10px;
+    left: 0px;
+    width: 14px;
+}
+.note_form {
+  
+    max-width: 450px;
+    width: 80%;
+   
+}
+
+.modal-content {
+  
+    width: 90%;
+        margin: 10% auto;
+   
+}
+
+.cld_submit {
+  
+    right: unset;
+    top: 102%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.calender-header-text {
+   
+    display: flex;
+    justify-content: center;
+   
+}
+
+.calender-header-text span {
+	margin-left: 10px;
+}
+.calender-header-text {
+     width: unset; 
+}
+
+
+.destination_fluid .col-lg-6:last-child {
+	order: -1;
+}
+.destination_fluid {
+    padding-top: 50px;
+    
+}
+.destination_fluid .container .dest_img_box img {
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+.circle_shape {
+	display: none;
+}
+.offers_fluid .offers_tittle h2 {
+    font-size: 22px;
+        padding-bottom: 5px;
+}
+.offers_fluid .container .organizations_box h3 {
+    font-size: 18px;
+}
+.offers_fluid .container .organizations_text {
+    padding: 40px 20px 15px;
+  
+}
+.offers_fluid .container .organizations_text p {
+    
+    font-size: 11px;
+   
+}
+.offers_fluid .container .organizations_box {
+   
+       width: 90%;
+    margin: 0 auto 40px;
+}
+
+
+.about_us_fluid .about_tittle h2 {
+    font-size: 22px;
+}
+
+.notification_box .notification_content span {
+    
+    font-size: 18px;
+   
+}
+
 }
 
 
@@ -820,6 +948,22 @@
     width: 400px;
     width: 60%;
 }
+.note_box {
+    width: 122px;
+    padding: 1px 9px;
+   
+}
+	.note_box span {
+    font-size: 14px;
+}
+#calendar-wrap {
+   
+    padding: 10px 33px 20px;
+}
+.destination_fluid .container .dest_info_box .dest_text p {
+    font-size: 11px;
+ 
+}
 
 }
 
@@ -831,4 +975,27 @@
     width: 400px;
     width: 85%;
 }
+.note_form {
+    max-width: 450px;
+    width: 95%;
+}
+#calendar-wrap {
+    padding: 10px 10px 20px;
+}
+.note_tittle h2 {
+    font-size: 14px;
+}
+.destination_fluid .container .dest_img_box img {
+    max-width: 245px;
+    margin: 0 auto;
+}
+.about_us_fluid .container .about_content .about_img {
+    width: 90px;
+    height: 90px;
+   
+}
+.about_us_fluid .container .about_text p {
+    font-size: 11px;
+}
+
 }
